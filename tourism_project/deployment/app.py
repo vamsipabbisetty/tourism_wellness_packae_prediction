@@ -23,7 +23,7 @@ PreferredPropertyStar=st.number_input("PreferredPropertyStar", min_value=1, max_
 NumberOfTrips=st.number_input("NumberOfTrips", min_value=1, max_value=10, value=1)
 MonthlyIncome=st.number_input("MonthlyIncome", min_value=10000, max_value=100000, value=20000)
 DurationOfPitch=st.number_input("DurationOfPitch", min_value=1, max_value=40, value=10)
-NumberOfChildrenVisiting==st.number_input("NumberOfChildrenVisiting", min_value=0, max_value=5, value=2)
+NumberOfChildrenVisiting=st.number_input("NumberOfChildrenVisiting", min_value=0, max_value=5, value=2)
 TypeofContact = st.selectbox("TypeofContact?", ["Self Enquiry", "Company Invited"])
 Occupation = st.selectbox("Occupation?", ["Free Lancer", "Salaried","Small Business","Large Business"])
 Gender = st.selectbox("Gender?", ["Male", "Female"])
