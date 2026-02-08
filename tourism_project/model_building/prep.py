@@ -60,7 +60,7 @@ df['MaritalStatus']=df['MaritalStatus'].apply(lambda x: 'Single' if x == 'Unmarr
 # Define target and features
 target = 'ProdTaken'
 y = df[target]
-X = df.drop(columns=target)
+X = df[numerical_features + categorical_features]
 
 
 
